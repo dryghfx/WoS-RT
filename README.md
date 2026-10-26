@@ -13,12 +13,13 @@ Static web app. No build step. Files:
 - iPhone (Safari): Share → Add to Home Screen.
 - Desktop Chrome/Edge: install icon in the address bar.
 
-## Updating
-Upload the new `index.html`, then change `rally-timer-v2` to `rally-timer-v2` (and so on) in `sw.js`. Without that, installed copies can keep showing the old version.
-
 ## Notes
 - Keep the app on screen while timing. It asks the browser to keep the screen awake while a timer runs.
 - Leaders, groups and settings are saved in the browser on each device, not shared between devices.
+
+## Updating
+Upload the new `index.html`, then change `rally-timer-v2` to `rally-timer-v2` (and so on) in `sw.js`. Without that, installed copies can keep showing the old version.
+
 
 ## Publish on GitHub Pages
 1. Create a new public repository on github.com (for example `rally-timer`).
